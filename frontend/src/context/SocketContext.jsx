@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() => {
 		if (authUser) {
-			const socket = io("https://chatie.onrender.com", {
+			const socket = io("https://chatie-5v3e.onrender.com", {
 				query: {
 					userId: authUser._id,
 				},
